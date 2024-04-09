@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../less/less_programas/style_programas.less">
+    <link rel="stylesheet" href="../less/style.less">
+    <title>Document</title>
+</head>
+<body>
+    {{> header}}
+   <main>
+    <section class="hero-panel">
+        <h1>Nuestros Programas</h1>
+        <picture>
+            <img src="../img/portada_programas.jpg" alt="Cabecera Principal" />
+        </picture>
+    </section>
+    <section class="programa_intro">
+        <div class="programa__texto">
+            <h2>Creando espacio para los jóvenes en la conservación</h2>
+            <p>
+                Desde 2016, The Nature Conservancy (TNC) ha estado trabajando con el grupo con sede en Cincinnati para ayudarlo a avanzar en su trabajo. 
+                Lo que comenzó como un proyecto para jóvenes para eliminar especies invasoras en Jacoby Branch en Yellow Springs se ha convertido en uno 
+                de los programas de fuerza laboral ecológica para jóvenes más grandes del país, que ahora emplea a más de 165 jóvenes cada año. El apoyo 
+                de TNC proporcionó la base para que Groundwork ORV combine trabajos con conservación comunitaria en la ciudad y el trabajo apenas está comenzando.
+            </p>
+        </div>
+        <div class="programa__imagen">
+            <img src="../img/programa1.jpg" alt="imagen programa">
+        </div>
+    </section>
+    <section class="programa_intro2">
+        <div class="programa__imagen">
+            <img src="../img/programa2.jpg" alt="imagen programa">
+        </div>
+        <div class="programa__texto">
+            <h2>Creando espacio para la conservación</h2>
+            <p>
+            TNC ha estado trabajando con Groundwork Ohio River Valley, una organización sin fines de lucro de justicia ambiental con sede en Cincinnati, para ayudar a avanzar en su trabajo de generar equidad en la conservación. Escuche cómo la asociación de TNC ha sido fundamental para crear vías para que los jóvenes participen.
+            </p>
+        </div>
+        
+    </section>
+    {{> cards}}
+   </main>
+   {{> footer}}
+</body>
+</html>

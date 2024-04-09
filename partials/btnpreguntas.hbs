@@ -1,0 +1,22 @@
+{{#each todo}}
+<div class="pregunta">
+    <input type="radio" name="pregunta" id="btn-pregunta{{@index}}" class="btn-pregunta">
+    <label for="btn-pregunta{{@index}}">
+        {{pre}}
+        {{pretwo}}
+        {{pretres}}
+        {{precua}}
+        {{precin}}
+        {{preseis}}
+    </label>
+    <div class="contenido-pregunta">
+        <p>{{content}}</p>
+       <p>{{contenttwo}}</p> 
+       <p>{{contentres}}</p>
+       <p>{{contentcua}}</p>
+       <p>{{contentcin}}</p>
+       <p>{{contentsies}}</p>
+    </div>
+</div>
+{{/each}}
+
