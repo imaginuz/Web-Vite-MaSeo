@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../less/less_donar/style_form.less">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <form action="donar.html" method="get" id="datosForm" novalidate>
+                <div class="intro_donaciones">
+                    <h1>Tu apoyo ayuda a salvar la Tierra</h1>
+                    <p>
+                        Realiza tu donativo hoy para ayudar a afrontar 
+                        los temas de conservación más importantes de nuestro tiempo.
+                    </p>
+                    <p>
+                        Al efectuar tu donativo a M.A SEO, ayudas a resolver 
+                        los desafíos más apremiantes de nuestro planeta. Como la organización 
+                        sin fines de lucro que ha logrado tantos avances en la conservación a nivel municipal. 
+                        Tu donación va más allá de la caridad; representa una inversión en el futuro de nuestro planeta.
+                    </p>
+                </div>
+                <div>
+                    <p>Elija o ingrese un monto de donación</p>
+                </div>
+                <div class="datosMoney">
+                    <button type="button">$25</button>
+                    <button type="button">$100</button>
+                    <button type="button">$250</button>
+                    <button type="button">$500</button>
+                    <div class="inputBox">
+                        <label for="dinero">Cantidad de donación personalizada</label>
+                        <input type="number" id="dinero" placeholder="$" required />
+                    </div>
+                </div>
+                <div>
+                    <p>Elija o ingrese un monto de donación</p>
+                </div>
+                <div class="datosMoney_2">
+                    <button type="button">Tajeta Credito</button>
+                    <button type="button">Tarjeta Debito</button>
+                    <fieldset>
+                        <div class="inputBox">
+                            <label for="numerotar">Numero de Tarjeta</label>
+                            <input type="number" id="numerotar" placeholder="" required />
+                        </div>
+                    </fieldset>
+                </div>
+
+
+                <div class="two_colum">
+                    <div class="inputBox">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Nombre" required />
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" placeholder="Apellido" required />
+                    </div>
+                </div>
+
+                <div class="inputBox">
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" id="email" placeholder="Correo electrónico" required />
+                </div>
+
+                <div class="inputBox">
+                    <label for="direccion">Direccion</label>
+                    <input type="text" id="direccion" placeholder="Direccion" required />
+                </div>
+
+                <div class="two_colum">
+                    <div class="inputBox">
+                        <label for="ciudad">Ciudad</label>
+                        <input type="text" id="ciudad" placeholder="Nombre Ciudad" required />
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="cmbDepartamento">Departamento</label>
+                        <select id="submit" name="cmbDepartamento" onclick="" required><!---->
+                            <option value="" disabled selected hidden>Seleccione Departamento</option>
+                            <option value="ATA">Atlantida</option>
+                            <option value="CHA">Choluteca</option>
+                            <option value="CON">Colon</option>
+                            <option value="COA">Comayagua</option>
+                            <option value="CPN">Copan</option>
+                            <option value="COS">Cortes</option>
+                            <option value="EPO">El Paraiso</option>
+                            <option value="FMA">Francisco Morazan</option>
+                            <option value="GAD">Gracias a Dios</option>
+                            <option value="INA">Intibuca</option>
+                            <option value="ISA">Islas de la Bahia</option>
+                            <option value="LAZ">La Paz</option>
+                            <option value="LES">Lempira</option>
+                            <option value="OCE">Ocotepeque</option>
+                            <option value="OLO">Olancho</option>
+                            <option value="SAA">Santa Barbara</option>
+                            <option value="VAE">Valle</option>
+                            <option value="YOO">Yoro</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="two_colum">
+                    <div class="inputBox">
+                        <label for="codigopostal">Codigo Postal</label>
+                        <input type="text" id="codigopostal" placeholder="Codigo Postal" required />
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="numerotel">Numero</label>
+                        <input type="number" id="numerotel" placeholder="+(504) 0000-0000" required />
+                    </div>
+                </div>
+
+                <fieldset>
+                    <input type="checkbox" id="chkInfo" name="chkInfo" value="1" required />
+                    <label for="chkInfo">Acepto terminos y condiciones</label>
+                </fieldset>
+
+                <div class="inputBox">
+                    <button type="submit">Donar Ahora</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

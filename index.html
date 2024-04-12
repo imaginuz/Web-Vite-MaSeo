@@ -1,17 +1,87 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page {{tittle}} </title>
-    <link rel="stylesheet" href="less/style.less">
-  </head>
-  <body>
-    {{> header}}
-    <main>
-      <h1>INDEX</h1>
-    </main>
-    {{> footer}}
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M.A. SEO</title>
+  <link rel="stylesheet" href="less/style.less">
+  <link rel="stylesheet" href="less/style.css">
+  <script src="js/js_index.js"></script>
+</head>
+
+<body>
+  {{> header}}
+  <main>
+    <section class="hero-panel">
+      <h1>Acerca de Nosotros</h1>
+      <picture>
+        <img src="img/fondo__index.png" alt="Cabecera Principal" />
+      </picture>
+    </section>
+    <section class="statistics-section">
+      <h2>Estadísticas de impacto global</h2>
+      <div class="statistics-container">
+        <div class="statistic">
+          <span class="statistic-number" data-target="1257">0</span>
+          <span class="statistic-label">Personas alcanzadas</span>
+        </div>
+        <div class="statistic">
+          <span class="statistic-number" data-target="12500">0</span>
+          <span class="statistic-label">Arboles sembrados</span>
+        </div>
+        <div class="statistic">
+          <span class="statistic-number" data-target="3">0</span>
+          <span class="statistic-label">Número de socios activos</span>
+        </div>
+        <div class="statistic">
+          <span class="statistic-number" data-target="22000">0</span>
+          <span class="statistic-label">Comunidad</span>
+        </div>
+      </div>
+    </section>
+    <section class="fa_cardma">
+      <div class="cardma">
+        <div class="cardma__texto">
+          <h2>Un festival para el futuro</h2>
+          <p>
+            En uno de los lugares con mayor biodiversidad del planeta, un joven 
+            líder está empleando la educación como herramienta para el cambio.
+          </p>
+        </div>
+        <div class="cardma__imagen_2">
+          <img src="img/equipo_naturaleza.png" alt="imagen nosotros">
+        </div>
+      </div>
+
+      <div class="cardmatwo">
+        <div class="cardma__imagen">
+          <img src="img/jovenes_naturaleza.png" alt="imagen nosotros">
+        </div>
+
+        <div class="cardma__texto">
+          <h2>Conservamos las tierras y aguas de las que depende la vida.</h2>
+          <p>
+            Cada hectárea que protegemos y cada km de río que restauramos empieza 
+            contigo. Tu apoyo nos ayuda a hacer frente a la doble amenaza del cambio climático y la 
+            pérdida de biodiversidad en más de 70 países.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="hero-panel-two">
+      <h2>Jóvenes cambiando el mundo</h2>
+      <p>
+        En M.A. SEO, quieren ayudar a jóvenes de comunidades que no tienen muchas oportunidades, 
+        dándoles las habilidades necesarias para convertirse en líderes de la conservación. 
+      </p>
+      <picture>
+        <img src="img/fondo_index2.png" alt="Cabecera Principal" />
+      </picture>
+    </section>
+  </main>
+  {{> footer}}
+</body>
+
 </html>
