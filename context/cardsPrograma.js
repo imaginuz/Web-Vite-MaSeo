@@ -1,5 +1,5 @@
 export default {
-    "todos": [
+    "todoss": [
         {
             imgUrl: "../img/programa3.jpg",
             name: "Pruebas de Calidad del agua",
