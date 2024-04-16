@@ -10,6 +10,7 @@ Este es un proyecto web de la clase de **Desarrollo de Portales Web 2** en la [U
 
 - Asshlly Michelle Castro Irías - 1503200400378 ([Asshlly](https://github.com/Asshlly))
 
+- Jose Eduardo Cruz Aguilar Aguilar - 1501200300438  ([kick800](https://github.com/kick800))
 
 ## Vite Webundler Installation
 ```bash
